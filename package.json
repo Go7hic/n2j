@@ -1,0 +1,26 @@
+{
+  "name": "n2j",
+  "version": "0.1.2",
+  "description": "a small command tool url to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dyygtfx/n2j.git"
+  },
+  "author": "Go7hic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyygtfx/n2j/issues"
+  },
+  "homepage": "https://github.com/dyygtfx/n2j#readme",
+  "dependencies": {
+    "qs": "^6.0.0"
+    },
+    "preferGlobal": true,
+    "bin": {
+      "n2j": "index.js"
+    }
+}
